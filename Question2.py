@@ -5,23 +5,23 @@
 
 """
 
-"""def concat_dico(dico1, dico2):
+def concat_dico(dico1, dico2):
     mergedDic = dico1 | dico2  #создает новый словарь и объеденяет два предыдущих
     print(mergedDic)
 
 
-concat_dico({'one':1, 'two':2, 'three':3}, {'four':4, 'five':5})"""
+concat_dico({'one':1, 'two':2, 'three':3}, {'four':4, 'five':5})
 
+#Another way
 
-
-"""def concat_dico(dico1, dico2):
+def concat_dico(dico1, dico2):
     result = {}
     for x, y in dico1.items():
         result[x] = y
     for x, y in dico2.items():
         result[x] = y
     print(result)
-concat_dico({'one':1, 'two':2, 'three':3}, {'four':4, 'five':5})"""
+concat_dico({'one':1, 'two':2, 'three':3}, {'four':4, 'five':5})
 
 
 """
