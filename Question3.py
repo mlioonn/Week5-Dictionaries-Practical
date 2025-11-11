@@ -4,12 +4,12 @@ and returns a dictionary where the keys are the elements from the list keys and 
 The mapping follows the lists indices. The function returns None if the two lists do not have the same length.    
 """
 
-"""def map_list(keys, values):
+def map_list(keys, values):
     if len(keys) != len(values):
         return None
     else:
         return dict(zip(keys, values))
-print(map_list(['un', 'two'], [1,2]))"""
+print(map_list(['un', 'two'], [1,2]))
 
 
 """
